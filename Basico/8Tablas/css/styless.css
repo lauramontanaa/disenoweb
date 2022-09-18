@@ -1,0 +1,15 @@
+table{
+    text-align: center;
+}
+thead tr, th{
+    border: 1px solid black;
+    background-color: rgba(202, 129, 248, 0.947);
+}
+tbody td{
+    border: 1px solid black;
+    background-color: rgba(237, 213, 244, 0.863);
+}
+tfoot td{
+    border: 1px solid black;
+    background-color: rgba(237, 213, 244, 0.863);
+}

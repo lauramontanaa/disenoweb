@@ -1,0 +1,8 @@
+/*
+ccs: lenguaje de estilos para documentos html
+*/
+h2{
+    color: RebeccaPurple;
+    background-color: beige;
+    text-align: center;
+}

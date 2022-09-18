@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form id="form">
+        <!--method="post" action="./backend/receive.php" para mandar a php-->
+        <!--inputs, todo input lleva label-->
+        <!--investigar sobre patrones/expresiones regulares-->
+        <label for="name">nombre</label>
+        <input type="text"
+        id="name"
+        name="name"
+        value=""
+        placeholder="introduzca su nombre"
+        minlength="3"
+        maxlenght="50"
+        pattern="[a-zA-Z]{3-20}"
+        title="se admiten solo letras"
+        autocomplete="off"
+        required
+        >
+        <br>
+        <label for="age">edad</label>
+        <input type="number" min="1" max="99" id="age"><br>
+        <label for="mail">correo electronico</label>
+        <input type="email" id="mail" placeholder="email"><br>
+        <label for="pss">contraseña</label>
+        <input type="password" id="pss"><br>
+        <label for="color">color</label>
+        <input type="color" id="color"><br>
+        <label for="files">archivo</label>
+        <input type="file" id="files"><br>
+        <label for="oculto">oculto</label>
+        <input type="hidden" id="oculto"><br>
+        <label for="mes">mes</label>
+        <input type="month" id="mes" list="meses"><br>
+        <datalist id="meses">
+            <option value="enero">
+            <option value="febrero">
+        </datalist>
+        <fieldset><legend>estado civil</legend>
+            <input type="radio" name="estado" value="soltero">soltero
+            <input type="radio" name="estado" value="casado">casado
+            <input type="radio" name="estado" value="viudo">viudo
+        </fieldset>
+        <label for="lenguajes">lenguajes de programacion</label>
+        <select name="lenguajes">
+            <optgroup label="backend">
+                <option>java</option>
+                <option>php</option>
+                <option>vb.net</option>
+                <option>node.js</option>
+            </optgroup>
+            <optgroup label="frontend">
+                <option>javascript</option>
+                <option>typescript</option>
+                <option>css</option>
+            </optgroup>
+        </select><br>
+        <label for="condiciones">acepta terminos y condiciones</label>
+        <input type="checkbox" id="condiciones"><br>
+        <hr>
+        <input type="button" id="boton" value="aceptar">
+        <button type="button" id="boton2">validar</button>
+        <button type="submit" id="enviar">enviar datos</button>
+        <!--types: time, reset, range, tel, week, url, textarea-->
+        <!--atributos: multiline-->
+    </form>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

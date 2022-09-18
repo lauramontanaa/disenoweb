@@ -1,0 +1,43 @@
+/*
+ccs: lenguaje de estilos para documentos html
+la estructura basica para trabajar en css es:
+selector: selecciona el elemento que se va a modificar
+1. selector por etiqueta: cambia el estilo de todas las etiquetas
+2. selector por clase: cambia o modifica el estilo del elemento que use en su atributo class el estilo
+3. selector por id: cambia el estilo del elemento que posea el id
+4. selector universal: *
+selector{
+    atributo:valor;
+}
+*/
+*{
+    margin:0;
+    padding:0;
+}
+
+h2{
+    color: RebeccaPurple;
+    background-color: beige;
+    text-align: center;
+}
+
+/*selector por clase: " . "*/
+
+.articulo1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: bisque;
+    padding: 0px 0px 10px 20px;
+}
+
+/*selector por id # */
+#segundoParrafo{
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    color: brown;
+    padding: 5px;
+}
+/*agrupacion de selectores*/
+h1, .articulo1, #segundoParrafo{
+    text-align: center;
+}
