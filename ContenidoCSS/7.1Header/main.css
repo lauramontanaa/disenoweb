@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /*background: linear-gradient(white,yellow,red);*/
+    background: linear-gradient(90deg,white,60%,yellow,red,orange);
+
+}
+body{
+    font-family: 'Inconsolata', monospace;
+}
+.cabecera{
+    width: 100%;
+    height: 400px;
+    background-color: #01011d;
+    background-image: linear-gradient(50deg,gray,60%,brown),url(./img/hd-wallpaper-3625405_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    padding: 0.1px;
+    color: aliceblue;
+    font-weight: 400;
+}
+.title{
+    font-size: 60px;
+    margin-top: 150px;
+    text-align: right;
+}
+nav a{
+    color: mediumseagreen;
+}
+ul>li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #d2d7d3;
+    margin-top: 2%;
+    border-radius: 15px;
+}
+.div{
+    text-align: right;
+    padding-right: 5px;
+    margin-top: 3%;
+}
+.ingreso{
+    display: inline-block;
+    padding: 15px;
+    background-color: aquamarine;
+    color: brown;
+    text-transform: uppercase;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.subtitle{
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 20px 5px 10px #5b5bbe;
+}
+.parrafoHsl{
+    word-spacing: 10px;
+}
+.parrafoLorem{
+    line-height: 40px;
+}
+.seccion{
+    margin: 0 auto;
+    text-align: center;
+}
+.arti{
+    display: inline-block;
+    width: 45%;
+    margin: 5px 1.2%;
+    background: gray;
+    padding: 20%;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0px yellow;
+    font-style: italic;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(45deg,brown,blue,60%,green);
+}
+.footer a{
+    color: #d2d7d3;
+    padding: 5px;
+}
+.textRedes{
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px;
+    width: 48%;
+    box-sizing: border-box;
+    color: #d2d7d3;
+}
+.redes{
+    display: inline-block;
+    text-align: end;
+    font-size: 25px;
+    width: 50%;
+    box-sizing: border-box;
+}
+.medio{
+    width: 100%;
+    height: 100px;
+}
+.copy{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(45deg,yellow,purple);
+    text-align: center;
+    color: #d2d7d3;
+}

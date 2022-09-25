@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja1{
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.caja2{
+    width: 300px;
+    height: auto;
+    background-color: blueviolet;
+    border: 1px solid black;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+@media(max-width: 768px){
+    .caja1{
+        width: 400px;
+        margin-left: 10px;
+        font-size: 14px;
+        background-color: aqua;
+    }
+}
+@media(max-width: 480px){
+    .caja2{
+       width: 300px;
+       margin-left: 5px;
+       font-size: 12px;
+       background-color: blue; 
+    }
+}
+/*medias queries*/

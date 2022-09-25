@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 600px;
+}
+:root{
+    /*font-size: 16px; DEFAULT*/
+}
+.div{
+    width: 2em;
+    height: 70%;
+    background: rgb(168, 100, 100);
+}
+section{
+    /*viewport width y viewport height*/
+    width: 30rem;
+    height: 40vh;
+    background: rgb(168, 100, 100);
+    font-size: 20px;
+}

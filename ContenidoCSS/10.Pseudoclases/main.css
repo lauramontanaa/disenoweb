@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+.menu{
+    width: 100%;   
+    margin: auto;
+    text-align: center;
+    font-size: 19px;    
+    font-weight: 800;
+}
+ul >li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e7dadfc3;
+    margin-top: 2%;
+    border-radius: 15px;    
+}
+/*pseudoclase*/
+.link:focus{
+    font-size: 24px;
+}
+.input{
+    background-color: black;
+    border: 2px double yellow;
+    outline: none;
+}
+.title{
+    background-color: #e7dadfe0;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;    
+    margin-top: calc(30vh - 50px);
+    font-weight: 400;
+    color: #732626;    
+}
+article:nth-child(evem){
+    background-color: azure;
+}

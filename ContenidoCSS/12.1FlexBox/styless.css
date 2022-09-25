@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    background-color: aqua;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 1%;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.flex-container>div{
+    color: rgb(48, 116, 175);
+    width: 10%;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 45px;
+}
+/*direccion de ejes
+eje principal horizontal, eje secundario vertical
+flex-direction: row; //default
+flex-wrap: nowrap; //hijos en una fila
+justify-content;
+||flex-start, flex-end, center, space-between
+align-items;
+*/

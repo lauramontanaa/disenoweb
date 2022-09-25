@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+    /*los bordes trabajan con 3 propiedades o atributos*/
+    border-color: blueviolet;
+    border-style: groove;
+    border-width: 15px;
+    /*vertical-horizontal*/
+    border-style: ridge dotted;
+    /*top | vertical | bottom*/
+    border-style: hidden double inset;
+    /*simplificar*/
+    border: 10px solid red;
+    border-radius: 5% 2%;
+    box-shadow: 2px 3px 5px 10px orange;
+    margin-top: 2%;
+}
+.card{
+    background-color: #A69C94;
+    color: #030303;
+    width: 300px;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 5px auto;
+    text-align: center;
+    box-shadow: 0 0 20px 0 #594731;
+}
+.cat{
+    display: block;
+    width: 100px;
+    height: 180px;
+    margin: 15px auto;
+    padding-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.text{
+    font-size: small;
+    font-style: oblique;
+}
+.title{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    background-color: #8C8070;
+    margin: 2% 35% 0 35%;
+    box-shadow: 0 0 10px 0 #594731;
+    padding: 2px;
+}

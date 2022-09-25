@@ -1,0 +1,80 @@
+/*
+1. Remover estilos predeterminados que vienen en el navegador
+elementos de bloque: abarcan 100% del contenedor y da salto de linea
+elementos de linea: no generan saltos, no se puede utilizar width y height, cuando se colocan propiedades invaden elementos en bloque, para esto utilizamos propiedad display
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: thistle;
+}
+.box1{
+    margin: 0 auto;/*el margin auto funciona solo cuando esta definido el width*/
+    width: 400px;
+    height: auto;
+    padding: 5px;
+    background-color: blue;
+    border: 2px solid black;
+    box-sizing: border-box;/*acomoda el tamaño de la caja segun el ancho y el alto establecido*/
+}
+.box2{
+    margin: 0 auto;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    padding: 40px;
+}
+.box3{
+    margin: 0 auto;
+    background-color: purple;
+    width: 400px;
+    height: 200px;
+    padding: 40px;
+}
+.footer{
+    padding: 5px;
+    margin: auto;
+    width: 400px;
+}
+.enlaceFooter{
+    /*el valor block tratara como elementos de bloque a los elementos de linea
+    inline-block los coloca uno al lado de otro sin invadir otros elementos*/
+    display: inline-block;
+    padding: 20px;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    text-align: center;
+}
+/*haciendo cascada*/
+.box3{
+    margin: 0 auto;
+    background-color: rgb(0, 113, 128);
+    color: violet;
+    width: 400px;
+    height: 200px;
+    padding: 40px;
+    border: 2px double blue;
+}
+/*especificidad: los selectores tienen jerarquia*/
+h1{/*etiqueta especifidad 1*/
+    color: blueviolet;
+}
+#h1{/*id especifidad 100*/
+    color: brown;
+}
+.h1{/*class especifidad 10*/
+    color: aqua;
+}
+/*herencia: de propiedades de padres a hijos, no todas las propiedades en css son heredables*/
+.section{
+    background-color: burlywood;
+    font-style: italic;
+    border-radius: 2%;
+    padding: 13px;
+    text-align: center;
+}
